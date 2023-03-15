@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+.top-icons-container{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px 0;
+    align-items: center;
+    background-color: darkslategrey
+}
+
+.social-media-container{
+    padding: 5px 15px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.search-field{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-icons{
+    width: 30px;
+    height: 30px
+}
+
+.taskbar-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    align-items: center;
+    background-image: url("https://cdn.wallpapersafari.com/65/99/QFldR0.jpg");
+    color: white;
+}
+
+.hero-container {
+    margin-top: 0px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#blog-list-container {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.products-container {
+    margin-top: 50px;
+}
+
+.blog-card {
+    -webkit-box-shadow: 4px 3px 13px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 3px 13px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 3px 13px -6px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+#detail-section-by-id{
+    width: 80%
+}
+
+.details{
+    display: flex;
+    justify-content: row;
+}
+
